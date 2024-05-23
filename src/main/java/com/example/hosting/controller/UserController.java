@@ -27,6 +27,8 @@ public class UserController {
         users.add(new User(1L, "sudarshan", "sdn@gmail.com"));
         users.add(new User(2L, "Jayanth", "jyn@gmail.com"));
     }
+    
+    
 
     // Get all users
     @GetMapping
